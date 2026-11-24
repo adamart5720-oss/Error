@@ -1,0 +1,101 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+.contenedor {
+    display: flex;
+    height: 100vh;
+}
+
+.equipo {
+    width: 40%;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    background-color: #F3F3F3;
+}
+
+.tarjeta {
+    text-decoration: none;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    color: #F3F3F3;
+}
+.tarjeta h2 {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Iosevka Charon", monospace;
+
+}
+.tarjeta p {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.alix {
+    background-color: #8A0813;
+    justify-content: center;
+}
+
+.america {
+    background-color: #4580B0;
+    justify-content: center;
+}
+
+.adam {
+    background-color: #088A85;
+    justify-content: center;
+}
+
+.victor {
+    background-color: #066681;
+    justify-content: center;
+}
+
+.inicio {
+    background-color: #071E33;
+    width: 60%;
+    color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: "Iosevka Charon", monospace;
+}
+
+.inicio h1 {
+    font-size: 128px;
+    font-weight: 400;
+}
+
+.sub-inicio {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.redes {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.redes ul {
+    list-style: none;
+    display: flex;
+    gap: 17px;
+}
+
+.redes a {
+    color: #F3F3F3;
+}
+
+/*CELULAR*/
+@media (max-width: 700px) {
+}
